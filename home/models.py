@@ -22,7 +22,7 @@ class CustomText(models.Model):
 
 
 class HomePage(models.Model):
-    body = models.TextField()
+    bodyjj = models.TextField(blank=True,)
     newapp = models.BigIntegerField(null=True, blank=True,)
 
     @property
